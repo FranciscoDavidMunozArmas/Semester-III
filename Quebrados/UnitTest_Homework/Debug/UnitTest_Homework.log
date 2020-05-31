@@ -1,0 +1,4 @@
+﻿  UnitTest_Homework.cpp
+C:\Users\USUARIO\Desktop\C++\Semestre III\Deber_Quebrados\UnitTest_Homework\UnitTest_Homework.cpp(31,1): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+     Creando biblioteca C:\Users\USUARIO\Desktop\C++\Semestre III\Deber_Quebrados\Debug\UnitTest_Homework.lib y objeto C:\Users\USUARIO\Desktop\C++\Semestre III\Deber_Quebrados\Debug\UnitTest_Homework.exp
+  UnitTest_Homework.vcxproj -> C:\Users\USUARIO\Desktop\C++\Semestre III\Deber_Quebrados\Debug\UnitTest_Homework.dll
