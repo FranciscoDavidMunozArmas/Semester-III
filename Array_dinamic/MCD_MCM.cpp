@@ -2,7 +2,7 @@
  * Module:  MCD_MCM.cpp
  * Author:  USUARIO
  * Modified: lunes, 1 de junio de 2020 15:32:38
- * Purpose: Implementation of the MCD_MCM
+ * Purpose: Implementation of the class MCD_MCM
  ***********************************************************************/
 
 #include "MCD_MCM.h"
@@ -14,8 +14,8 @@
 using namespace std;
 
 ////////////////////////////////////////////////////////////////////////
-// Name:       add(T** matrix, int _size)
-// Purpose:    Implementation of add(T** matrix, int _size)
+// Name:       MCD_MCM::commun_minum(T* _array, int _size)
+// Purpose:    Implementation of MCD_MCM::commun_minum(T* _array, int _size)
 // Parameters:
 // - _array
 // - _size
@@ -23,7 +23,7 @@ using namespace std;
 ////////////////////////////////////////////////////////////////////////
 
 template<typename T>
-int commun_minum(T* _array, int _size)
+int MCD_MCM::commun_minum(T* _array, int _size)
 {
 	bool flag = true;
 	int max = 0, counter;
@@ -47,8 +47,8 @@ int commun_minum(T* _array, int _size)
 }
 
 ////////////////////////////////////////////////////////////////////////
-// Name:       commun_maxinum(T* _array, int _size)
-// Purpose:    Implementation of commun_maxinum(T* _array, int _size)
+// Name:       MCD_MCM::commun_maxinum(T* _array, int _size)
+// Purpose:    Implementation of MCD_MCM::commun_maxinum(T* _array, int _size)
 // Parameters:
 // - _array
 // - _size
@@ -56,7 +56,7 @@ int commun_minum(T* _array, int _size)
 ////////////////////////////////////////////////////////////////////////
 
 template<typename T>
-int commun_maxinum(T* _array, int _size)
+int MCD_MCM::commun_maxinum(T* _array, int _size)
 {
 	int minum, number, aux;
 	for (int i = 0; i < _size; i++) {

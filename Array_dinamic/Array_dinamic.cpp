@@ -2,7 +2,7 @@
  * Module:  Array_dinamic.cpp
  * Author:  USUARIO
  * Modified: lunes, 1 de junio de 2020 15:30:20
- * Purpose: Implementation of the Array_dinamic
+ * Purpose: Implementation of the class Array_dinamic
  ***********************************************************************/
 
 #include "Array_dinamic.h"
@@ -16,8 +16,8 @@
 using namespace std;
 
 ////////////////////////////////////////////////////////////////////////
-// Name:       create_array(int _size, T* _array)
-// Purpose:    Implementation of create_array(int _size, T* _array)
+// Name:       Array_dynamic::create_array(int _size, T* _array)
+// Purpose:    Implementation of Array_dynamic::create_array(int _size, T* _array)
 // Parameters:
 // - _array
 // - _size
@@ -25,7 +25,7 @@ using namespace std;
 ////////////////////////////////////////////////////////////////////////
 
 template<typename T>
-T* create_array(int _size, T* _array)
+T* Array_dynamic::create_array(int _size, T* _array)
 {
 	T *aux = (T*)malloc(_size * sizeof(T));
 	set_cero(_size, aux);
@@ -33,8 +33,8 @@ T* create_array(int _size, T* _array)
 }
 
 ////////////////////////////////////////////////////////////////////////
-// Name:       set_cero(int _size, T* _array)
-// Purpose:    Implementation of set_cero(int _size, T* _array)
+// Name:       Array_dynamic::set_cero(int _size, T* _array)
+// Purpose:    Implementation of Array_dynamic::set_cero(int _size, T* _array)
 // Parameters:
 // - _array
 // - _size
@@ -42,7 +42,7 @@ T* create_array(int _size, T* _array)
 ////////////////////////////////////////////////////////////////////////
 
 template<typename T>
-void set_cero(int _size, T* _array)
+void Array_dynamic::set_cero(int _size, T* _array)
 {
 	for (int i = 0; i < _size; i++) {
 		*(_array + i) = 0;
@@ -50,8 +50,8 @@ void set_cero(int _size, T* _array)
 }
 
 ////////////////////////////////////////////////////////////////////////
-// Name:       input_num(T* _array, string input_text, int _size)
-// Purpose:    Implementation of input_num(T* _array, string input_text, int _size)
+// Name:       Array_dynamic::input_num(T* _array, string input_text, int _size)
+// Purpose:    Implementation of Array_dynamic::input_num(T* _array, string input_text, int _size)
 // Parameters:
 // - _array
 // - _size
@@ -59,7 +59,7 @@ void set_cero(int _size, T* _array)
 ////////////////////////////////////////////////////////////////////////
 
 template<typename T>
-void input_num(T* _array, string input_text, int _size)
+void Array_dynamic::input_num(T* _array, string input_text, int _size)
 {
     Input input;
 	for (int i = 0; i < _size; i++) {
@@ -68,8 +68,8 @@ void input_num(T* _array, string input_text, int _size)
 }
 
 ////////////////////////////////////////////////////////////////////////
-// Name:       print_array(T* _array, int _size)
-// Purpose:    Implementation of print_array(T* _array, int _size)
+// Name:       Array_dynamic::print_array(T* _array, int _size)
+// Purpose:    Implementation of Array_dynamic::print_array(T* _array, int _size)
 // Parameters:
 // - _array
 // - _size
@@ -77,7 +77,7 @@ void input_num(T* _array, string input_text, int _size)
 ////////////////////////////////////////////////////////////////////////
 
 template<typename T>
-void print_array(T* _array, int _size)
+void Array_dynamic::print_array(T* _array, int _size)
 {
 	for (int i = 0; i < _size; i++) {
 		cout << *(_array + i) << ", ";
@@ -85,15 +85,15 @@ void print_array(T* _array, int _size)
 }
 
 ////////////////////////////////////////////////////////////////////////
-// Name:       sort(T* _array, int _size)
-// Purpose:    Implementation of sort(T* _array, int _size)
+// Name:       Array_dynamic::_sort(T* _array, int _size)
+// Purpose:    Implementation of Array_dynamic::_sort(T* _array, int _size)
 // Parameters:
 // - _array
 // - _size
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 template<typename T>
-void _sort(T* _array, int _size)
+void Array_dynamic::_sort(T* _array, int _size)
 {
 	T aux;
 	for (int i = 0; i < _size; i++) {
