@@ -16,8 +16,8 @@
 using namespace std;
 
 ////////////////////////////////////////////////////////////////////////
-// Name:       create_matrix(int _size, T** matrix)
-// Purpose:    Implementation of create_matrix(int _size, T** matrix)
+// Name:       Matrix::create_matrix(int _size, T** matrix)
+// Purpose:    Implementation of Matrix::create_matrix(int _size, T** matrix)
 // Parameters:
 // - _size
 // - matrix
@@ -25,7 +25,7 @@ using namespace std;
 ////////////////////////////////////////////////////////////////////////
 
 template<typename T>
-T** create_matrix(int _size, T** matrix)
+T** Matrix::create_matrix(int _size, T** matrix)
 {
 	T **aux = (T**)malloc(_size * sizeof(T*));
 	for (int i = 0; i < _size; i++) {
@@ -36,8 +36,8 @@ T** create_matrix(int _size, T** matrix)
 }
 
 ////////////////////////////////////////////////////////////////////////
-// Name:       set_cero(int _size, T** matrix)
-// Purpose:    Implementation of set_cero(int _size, T** matrix)
+// Name:       Matrix::set_cero(int _size, T** matrix)
+// Purpose:    Implementation of Matrix::set_cero(int _size, T** matrix)
 // Parameters:
 // - _size
 // - matrix
@@ -45,7 +45,7 @@ T** create_matrix(int _size, T** matrix)
 ////////////////////////////////////////////////////////////////////////
 
 template<typename T>
-void set_cero(int _size, T** matrix)
+void Matrix::set_cero(int _size, T** matrix)
 {
 	for (int i = 0; i < _size; i++) {
 		for (int j = 0; j < _size; j++) {
@@ -55,8 +55,8 @@ void set_cero(int _size, T** matrix)
 }
 
 ////////////////////////////////////////////////////////////////////////
-// Name:       input_num(T** matrix, string input_text, int _size)
-// Purpose:    Implementation of input_num(T** matrix, string input_text, int _size)
+// Name:       Matrix::input_num(T** matrix, string input_text, int _size)
+// Purpose:    Implementation of Matrix::input_num(T** matrix, string input_text, int _size)
 // Parameters:
 // - _size
 // - input_text
@@ -65,7 +65,7 @@ void set_cero(int _size, T** matrix)
 ////////////////////////////////////////////////////////////////////////
 
 template<typename T>
-void input_num(T** matrix, string input_text, int _size)
+void Matrix::input_num(T** matrix, string input_text, int _size)
 {
     Input input;
 	for (int i = 0; i < _size; i++) {
@@ -76,8 +76,8 @@ void input_num(T** matrix, string input_text, int _size)
 }
 
 ////////////////////////////////////////////////////////////////////////
-// Name:       print_matrix(T** matrix; int _size)
-// Purpose:    Implementation of print_matrix(T** matrix; int _size)
+// Name:       Matrix::print_matrix(T** matrix, int _size)
+// Purpose:    Implementation of Matrix::print_matrix(T** matrix, int _size)
 // Parameters:
 // - _size
 // - matrix
@@ -85,7 +85,7 @@ void input_num(T** matrix, string input_text, int _size)
 ////////////////////////////////////////////////////////////////////////
 
 template<typename T>
-void print_matrix(T** matrix, int _size)
+void Matrix::print_matrix(T** matrix, int _size)
 {
 	for (int i = 0; i < _size; i++) {
 		for (int j = 0; j < _size; j++) {
@@ -96,8 +96,8 @@ void print_matrix(T** matrix, int _size)
 }
 
 ////////////////////////////////////////////////////////////////////////
-// Name:       change_matrix(T** matrix, T** matrix_for_change, int _size)
-// Purpose:    Implementation of change_matrix(T** matrix, T** matrix_for_change, int _size)
+// Name:       Matrix::change_matrix(T** matrix, T** matrix_for_change, int _size)
+// Purpose:    Implementation of Matrix::change_matrix(T** matrix, T** matrix_for_change, int _size)
 // Parameters:
 // - matrix
 // - matrix_for_change
@@ -106,7 +106,8 @@ void print_matrix(T** matrix, int _size)
 ////////////////////////////////////////////////////////////////////////
 
 template<typename T>
-void change_matrix(T** matrix, T** matrix_for_change, int _size) {
+void Matrix::change_matrix(T** matrix, T** matrix_for_change, int _size)
+{
 	for (int i = 0; i < _size; i++) {
 		for (int j = 0; j < _size; j++) {
 			*(*(matrix_for_change + i) + j) = *(*(matrix + i) + j);

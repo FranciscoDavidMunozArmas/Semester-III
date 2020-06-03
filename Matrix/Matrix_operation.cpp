@@ -15,8 +15,8 @@
 using namespace std;
 
 ////////////////////////////////////////////////////////////////////////
-// Name:       add(T** matrix, int _size)
-// Purpose:    Implementation of add(T** matrix, int _size)
+// Name:       Matrix_operation::add(T** matrix, T** matrix_2, T** matrix_r, int _size)
+// Purpose:    Implementation of Matrix_operation::add(T** matrix, T** matrix_2, T** matrix_r, int _size)
 // Parameters:
 // - matrix
 // - _size
@@ -24,7 +24,7 @@ using namespace std;
 ////////////////////////////////////////////////////////////////////////
 
 template<typename T>
-void add(T** matrix, T** matrix_2, T** matrix_r, int _size)
+void Matrix_operation::add(T** matrix, T** matrix_2, T** matrix_r, int _size)
 {
 	for (int i = 0; i < _size; i++) {
 		for (int j = 0; j < _size; j++) {
@@ -36,8 +36,8 @@ void add(T** matrix, T** matrix_2, T** matrix_r, int _size)
 }
 
 ////////////////////////////////////////////////////////////////////////
-// Name:       add(T** matrix, T** matrix_2, T** matrix_r, int _size)
-// Purpose:    Implementation of add(T** matrix, T** matrix_2, T** matrix_r, int _size)
+// Name:       Matrix_operation::substract(T** matrix, T** matrix_2, T** matrix_r, int _size)
+// Purpose:    Implementation of Matrix_operation::substract(T** matrix, T** matrix_2, T** matrix_r, int _size)
 // Parameters:
 // - matrix
 // - matrix_2
@@ -47,7 +47,7 @@ void add(T** matrix, T** matrix_2, T** matrix_r, int _size)
 ////////////////////////////////////////////////////////////////////////
 
 template<typename T>
-void substract(T** matrix, T** matrix_2, T** matrix_r, int _size)
+void Matrix_operation::substract(T** matrix, T** matrix_2, T** matrix_r, int _size)
 {
 	for (int i = 0; i < _size; i++) {
 		for (int j = 0; j < _size; j++) {
@@ -59,8 +59,8 @@ void substract(T** matrix, T** matrix_2, T** matrix_r, int _size)
 }
 
 ////////////////////////////////////////////////////////////////////////
-// Name:       multiply(T** matrix, int _size)
-// Purpose:    Implementation of multiply(T** matrix, int _size)
+// Name:       Matrix_operation::multiply(T** matrix, T** matrix_2, T** matrix_r, int _size)
+// Purpose:    Implementation of Matrix_operation::multiply(T** matrix, T** matrix_2, T** matrix_r, int _size)
 // Parameters:
 // - matrix
 // - matrix_2
@@ -70,7 +70,7 @@ void substract(T** matrix, T** matrix_2, T** matrix_r, int _size)
 ////////////////////////////////////////////////////////////////////////
 
 template<typename T>
-void multiply(T** matrix, T** matrix_2, T** matrix_r, int _size)
+void Matrix_operation::multiply(T** matrix, T** matrix_2, T** matrix_r, int _size)
 {
 	for (int i = 0; i < _size; i++) {
 		for (int j = 0; j < _size; j++) {
@@ -82,8 +82,8 @@ void multiply(T** matrix, T** matrix_2, T** matrix_r, int _size)
 }
 
 ////////////////////////////////////////////////////////////////////////
-// Name:       pow(T** matrix, int _size, int index)
-// Purpose:    Implementation of pow(T** matrix, int _size, int index)
+// Name:       Matrix_operation::pow(T** matrix, int _size, int index)
+// Purpose:    Implementation of Matrix_operation::pow(T** matrix, int _size, int index)
 // Parameters:
 // - matrix
 // - _size
@@ -91,12 +91,13 @@ void multiply(T** matrix, T** matrix_2, T** matrix_r, int _size)
 ////////////////////////////////////////////////////////////////////////
 
 template<typename T>
-void pow(T** matrix, int _size, int index)
+void Matrix_operation::pow(T** matrix, int _size, int index)
 {
+    Matrix m;
 	T** aux;
-	aux = create_matrix(_size, aux);
+	aux = m.create_matrix(_size, aux);
 	T** matrix_r;
-	matrix_r = create_matrix(_size, matrix_r);
+	matrix_r = m.create_matrix(_size, matrix_r);
 
 	for (int times = 0; times < index - 1; times++) {
 		for (int i = 0; i < _size; i++) {
@@ -112,8 +113,8 @@ void pow(T** matrix, int _size, int index)
 			}
 		}
 
-		change_matrix(matrix_r, aux, _size);
-		set_cero(_size, matrix_r);
+		m.change_matrix(matrix_r, aux, _size);
+		m.set_cero(_size, matrix_r);
 	}
-	change_matrix(aux, matrix, _size);
+	m.change_matrix(aux, matrix, _size);
 }

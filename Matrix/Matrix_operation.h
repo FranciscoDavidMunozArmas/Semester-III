@@ -11,14 +11,17 @@
 #include <iostream>
 using namespace std;
 
-template<typename T>
-void add(T** matrix, T** matrix_2, T** matrix_r, int _size);
-template<typename T>
-void substract(T** matrix, T** matrix_2, T** matrix_r, int _size);
-template<typename T>
-void multiply(T** matrix, T** matrix_2, T** matrix_r, int _size);
-template<typename T>
-void pow(T** matrix, int _size, int index);
+class Matrix_operation {
+public:
+	template<typename T>
+	void add(T** matrix, T** matrix_2, T** matrix_r, int _size);
+	template<typename T>
+	void substract(T** matrix, T** matrix_2, T** matrix_r, int _size);
+	template<typename T>
+	void multiply(T** matrix, T** matrix_2, T** matrix_r, int _size);
+	template<typename T>
+	void pow(T** matrix, int _size, int index);
+};
 
 
 #endif

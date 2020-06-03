@@ -11,15 +11,18 @@
 #include <iostream>
 using namespace std;
 
-template<typename T>
-T **create_matrix(int _size, T** matrix);
-template<typename T>
-void set_cero(int _size, T** matrix);
-template<typename T>
-void input_num(T** matrix, string input_text, int _size);
-template<typename T>
-void print_matrix(T** matrix, int _size);
-template<typename T>
-void change_matrix(T** matrix, T** matrix_for_change, int _size);
+class Matrix {
+public:
+	template<typename T>
+	T** create_matrix(int _size, T** matrix);
+	template<typename T>
+	void set_cero(int _size, T** matrix);
+	template<typename T>
+	void input_num(T** matrix, string input_text, int _size);
+	template<typename T>
+	void print_matrix(T** matrix, int _size);
+	template<typename T>
+	void change_matrix(T** matrix, T** matrix_for_change, int _size);
+};
 
 #endif
