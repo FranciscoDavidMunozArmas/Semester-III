@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1595301077 source:c:\users\usuario\desktop\c++\semestre iii\sudoku\main.cpp
+	<iostream>
+	"Regiones.cpp"
+	"Ingreso.cpp"
+	"Sudoku.cpp"
+
+1595301049 c:\users\usuario\desktop\c++\semestre iii\sudoku\sudoku.cpp
+	<iostream>
+	<string>
+	<ctime>
+	"Sudoku.h"
+
+1595301091 c:\users\usuario\desktop\c++\semestre iii\sudoku\sudoku.h
+
+1595300634 c:\users\usuario\desktop\c++\semestre iii\sudoku\regiones.cpp
+	<iostream>
+	<math.h>
+	<sstream>
+	"Regiones.h"
+	"Ingreso.cpp"
+
+1595300536 c:\users\usuario\desktop\c++\semestre iii\sudoku\regiones.h
+
+1595300970 c:\users\usuario\desktop\c++\semestre iii\sudoku\ingreso.h
+	<iostream>
+
+1595300852 c:\users\usuario\desktop\c++\semestre iii\sudoku\validar.h
+
+1595301061 c:\users\usuario\desktop\c++\semestre iii\sudoku\ingreso.cpp
+	<iostream>
+	"Ingreso.h"
+	"Validar.cpp"
+
+1595300890 c:\users\usuario\desktop\c++\semestre iii\sudoku\validar.cpp
+	<iostream>
+	"Validar.h"
+
