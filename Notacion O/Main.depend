@@ -1,0 +1,96 @@
+# depslib dependency file v1.0
+1595973369 source:c:\users\usuario\desktop\c++\semestre iii\notacion o\main.cpp
+	<iostream>
+	"Libraries/Menu.cpp"
+	"O(1).cpp"
+	"O(log_n).cpp"
+	"O(n).cpp"
+	"O(n-2).cpp"
+
+1593221064 c:\users\usuario\desktop\c++\semestre iii\notacion o\o(1).cpp
+	"O(1).h"
+	"Order.cpp"
+	<iostream>
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+
+1593220873 c:\users\usuario\desktop\c++\semestre iii\notacion o\o(1).h
+	<iostream>
+	"Order.h"
+
+1593220922 c:\users\usuario\desktop\c++\semestre iii\notacion o\order.h
+	<iostream>
+
+1593220953 c:\users\usuario\desktop\c++\semestre iii\notacion o\order.cpp
+	"Order.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1593221053 c:\users\usuario\desktop\c++\semestre iii\notacion o\o(log_n).cpp
+	"O(log_n).h"
+	"Order.cpp"
+	<iostream>
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+
+1593220826 c:\users\usuario\desktop\c++\semestre iii\notacion o\o(log_n).h
+	<iostream>
+	"Order.h"
+
+1593220792 c:\users\usuario\desktop\c++\semestre iii\notacion o\o(n).cpp
+	"O(n).h"
+	"Order.cpp"
+	<iostream>
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+
+1593221010 c:\users\usuario\desktop\c++\semestre iii\notacion o\o(n).h
+	<iostream>
+	"Order.h"
+
+1593220993 c:\users\usuario\desktop\c++\semestre iii\notacion o\o(n-2).cpp
+	"O(n-2).h"
+	"Order.cpp"
+	<iostream>
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+
+1593220974 c:\users\usuario\desktop\c++\semestre iii\notacion o\o(n-2).h
+	<iostream>
+	"Order.h"
+
+1595469073 c:\users\usuario\desktop\c++\semestre iii\notacion o\libraries\menu.cpp
+	"Menu.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<windows.h>
+	<ctype.h>
+	<mmsystem.h>
+	"Screen.cpp"
+
+1595098950 c:\users\usuario\desktop\c++\semestre iii\notacion o\libraries\menu.h
+	<iostream>
+	"Screen.h"
+
+1594955606 c:\users\usuario\desktop\c++\semestre iii\notacion o\libraries\screen.h
+	<iostream>
+
+1594955856 c:\users\usuario\desktop\c++\semestre iii\notacion o\libraries\screen.cpp
+	"Screen.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<windows.h>
+	<ctype.h>
+	<mmsystem.h>
+
