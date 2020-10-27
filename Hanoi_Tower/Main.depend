@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1595978280 source:c:\users\usuario\desktop\c++\semestre iii\hanoi_tower\main.cpp
+	<iostream>
+	"Hanoi.cpp"
+
+1595978362 c:\users\usuario\desktop\c++\semestre iii\hanoi_tower\hanoi.cpp
+	<iostream>
+	<ctime>
+	<iostream>
+	"Libraries/Input.cpp"
+	"Libraries/To_number.cpp"
+	"Hanoi.h"
+
+1593640752 c:\users\usuario\desktop\c++\semestre iii\hanoi_tower\libraries\input.cpp
+	"Input.h"
+	"Verify_number.cpp"
+	<iostream>
+	<string>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1593640227 c:\users\usuario\desktop\c++\semestre iii\hanoi_tower\libraries\input.h
+	<iostream>
+
+1593640372 c:\users\usuario\desktop\c++\semestre iii\hanoi_tower\libraries\verify_number.cpp
+	"Verify_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1593640031 c:\users\usuario\desktop\c++\semestre iii\hanoi_tower\libraries\verify_number.h
+
+1593640391 c:\users\usuario\desktop\c++\semestre iii\hanoi_tower\libraries\to_number.cpp
+	"To_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1593640072 c:\users\usuario\desktop\c++\semestre iii\hanoi_tower\libraries\to_number.h
+
+1595978331 c:\users\usuario\desktop\c++\semestre iii\hanoi_tower\hanoi.h
+	<iostream>
+
