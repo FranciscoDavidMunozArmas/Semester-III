@@ -34,7 +34,6 @@ class Reina{
 			*(*(tablero+x)+y)='R';
 			bloquear(x,y);
 			if(n1==n){
-                cout << "El numero de vueltas es: " << n1 << endl;
 				mostrar();
 			}else{
 				for(int i=0;i<n;i++){
@@ -111,7 +110,6 @@ class Reina{
 	   }
 	   void solucionReinas(){
 	   	for(int i=0;i<n;i++){
-            int _count = 0;
 	   		solucion(i,0,1);
 		   }
 		   archivo.close();
