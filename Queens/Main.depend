@@ -1,0 +1,70 @@
+# depslib dependency file v1.0
+1594159760 source:c:\users\usuario\desktop\c++\semestre iii\queens\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	"Libraries/Matrix.cpp"
+	"Libraries/Input.h"
+	"Libraries/To_number.cpp"
+	"Queen.cpp"
+
+1594159622 c:\users\usuario\desktop\c++\semestre iii\queens\libraries\matrix.cpp
+	"Matrix.h"
+	"Array_dinamic.cpp"
+
+1593960576 c:\users\usuario\desktop\c++\semestre iii\queens\libraries\matrix.h
+	"Array_dinamic.h"
+
+1591824693 c:\users\usuario\desktop\c++\semestre iii\queens\libraries\array_dinamic.h
+	<iostream>
+
+1593032022 c:\users\usuario\desktop\c++\semestre iii\queens\libraries\array_dinamic.cpp
+	"Array_dinamic.h"
+	"Input.cpp"
+	"To_number.cpp"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+
+1593031700 c:\users\usuario\desktop\c++\semestre iii\queens\libraries\input.cpp
+	"Input.h"
+	"Verify_number.cpp"
+	<iostream>
+	<string>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1591057132 c:\users\usuario\desktop\c++\semestre iii\queens\libraries\input.h
+	<iostream>
+
+1593030996 c:\users\usuario\desktop\c++\semestre iii\queens\libraries\verify_number.cpp
+	"Verify_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1590619774 c:\users\usuario\desktop\c++\semestre iii\queens\libraries\verify_number.h
+
+1593031084 c:\users\usuario\desktop\c++\semestre iii\queens\libraries\to_number.cpp
+	"To_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1590714916 c:\users\usuario\desktop\c++\semestre iii\queens\libraries\to_number.h
+
+1593987305 c:\users\usuario\desktop\c++\semestre iii\queens\libraries\math.cpp
+	"Math.h"
+
+1593987233 c:\users\usuario\desktop\c++\semestre iii\queens\libraries\math.h
+
+1594159574 c:\users\usuario\desktop\c++\semestre iii\queens\queen.cpp
+	"Queen.h"
+	"Libraries/Matrix.cpp"
+
+1594159524 c:\users\usuario\desktop\c++\semestre iii\queens\queen.h
+	"Libraries/Matrix.h"
+

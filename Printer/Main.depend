@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1594776260 source:c:\users\usuario\desktop\c++\semestre iii\printer\main.cpp
+	<windows.h>
+	<fstream>
+	<string>
+	<iostream>
+	"Printer.cpp"
+
+1594776154 c:\users\usuario\desktop\c++\semestre iii\printer\printer.cpp
+	<windows.h>
+	<fstream>
+	<string>
+	<iostream>
+	"Printer.h"
+
+1594775505 c:\users\usuario\desktop\c++\semestre iii\printer\printer.h
+	<windows.h>
+	<fstream>
+
