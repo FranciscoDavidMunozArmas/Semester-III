@@ -1,0 +1,6 @@
+﻿  ID_verificator.cpp
+C:\Users\USUARIO\Desktop\C++\Semestre III\ID_verificator\ID_verificator\ID_verificator.cpp(49,39): warning C4101: 'e': variable local sin referencia
+C:\Users\USUARIO\Desktop\C++\Semestre III\ID_verificator\ID_verificator\ID_verificator.cpp(58,39): warning C4101: 'e': variable local sin referencia
+C:\Users\USUARIO\Desktop\C++\Semestre III\ID_verificator\ID_verificator\ID_verificator.cpp(64,1): warning C4804: '<': uso no seguro del tipo 'bool' en la operación
+C:\Users\USUARIO\Desktop\C++\Semestre III\ID_verificator\ID_verificator\ID_verificator.cpp(76,27): warning C4018: '<': no coinciden signed/unsigned
+  ID_verificator.vcxproj -> C:\Users\USUARIO\Desktop\C++\Semestre III\ID_verificator\Debug\ID_verificator.exe
