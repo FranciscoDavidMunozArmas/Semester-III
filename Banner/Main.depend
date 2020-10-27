@@ -1,0 +1,172 @@
+# depslib dependency file v1.0
+1595968597 source:c:\users\usuario\desktop\c++\semestre iii\banner\main.cpp
+	<iostream>
+	<stdio.h>
+	<string>
+	<sstream>
+	"Libraries/Banner.cpp"
+	"Libraries/Screen.cpp"
+	"Libraries/Array_dinamic.cpp"
+	"Libraries/Input.cpp"
+
+1593640399 c:\users\usuario\desktop\c++\semestre iii\banner\libraries\screen.cpp
+	"Screen.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<windows.h>
+	<ctype.h>
+	<mmsystem.h>
+
+1593640084 c:\users\usuario\desktop\c++\semestre iii\banner\libraries\screen.h
+	<iostream>
+
+1594653299 c:\users\usuario\desktop\c++\semestre iii\banner\libraries\array_dinamic.cpp
+	"Array_dinamic.h"
+	"Input.cpp"
+	"To_number.cpp"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+
+1594653306 c:\users\usuario\desktop\c++\semestre iii\banner\libraries\array_dinamic.h
+	<iostream>
+
+1593640752 c:\users\usuario\desktop\c++\semestre iii\banner\libraries\input.cpp
+	"Input.h"
+	"Verify_number.cpp"
+	<iostream>
+	<string>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1593640227 c:\users\usuario\desktop\c++\semestre iii\banner\libraries\input.h
+	<iostream>
+
+1593640372 c:\users\usuario\desktop\c++\semestre iii\banner\libraries\verify_number.cpp
+	"Verify_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1593640031 c:\users\usuario\desktop\c++\semestre iii\banner\libraries\verify_number.h
+
+1593640391 c:\users\usuario\desktop\c++\semestre iii\banner\libraries\to_number.cpp
+	"To_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1593640072 c:\users\usuario\desktop\c++\semestre iii\banner\libraries\to_number.h
+
+1595085069 c:\users\usuario\desktop\c++\semestre iii\banner\banner.cpp
+	<Windows.h>
+	<iostream>
+	<stdio.h>
+	<string>
+	<sstream>
+	"Banner.h"
+	"Libraries/Array_dinamic.cpp"
+	"Libraries/Screen.cpp"
+
+1595084177 c:\users\usuario\desktop\c++\semestre iii\banner\banner.h
+	<iostream>
+
+1595968741 c:\users\usuario\desktop\c++\semestre iii\banner\libraries\banner.cpp
+	<Windows.h>
+	<iostream>
+	<stdio.h>
+	<string>
+	<sstream>
+	<new>
+	"Banner.h"
+	"Array_dinamic.cpp"
+	"Screen.cpp"
+
+1595951273 c:\users\usuario\desktop\c++\semestre iii\banner\libraries\banner.h
+	<iostream>
+
+1595177331 source:c:\users\usuario\desktop\c++\semestre iii\slide_menu\tareas\banner\main.cpp
+	<iostream>
+	<stdio.h>
+	<string>
+	<sstream>
+	"Libraries/Banner.cpp"
+	"Libraries/Screen.cpp"
+	"Libraries/Array_dinamic.cpp"
+	"Libraries/Input.cpp"
+
+1595469409 c:\users\usuario\desktop\c++\semestre iii\slide_menu\tareas\banner\libraries\banner.cpp
+	<Windows.h>
+	<iostream>
+	<stdio.h>
+	<string>
+	<sstream>
+	<new>
+	"Banner.h"
+	"Array_dinamic.cpp"
+	"Screen.cpp"
+
+1595084177 c:\users\usuario\desktop\c++\semestre iii\slide_menu\tareas\banner\libraries\banner.h
+	<iostream>
+
+1594653299 c:\users\usuario\desktop\c++\semestre iii\slide_menu\tareas\banner\libraries\array_dinamic.cpp
+	"Array_dinamic.h"
+	"Input.cpp"
+	"To_number.cpp"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+
+1594653306 c:\users\usuario\desktop\c++\semestre iii\slide_menu\tareas\banner\libraries\array_dinamic.h
+	<iostream>
+
+1593640752 c:\users\usuario\desktop\c++\semestre iii\slide_menu\tareas\banner\libraries\input.cpp
+	"Input.h"
+	"Verify_number.cpp"
+	<iostream>
+	<string>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1593640227 c:\users\usuario\desktop\c++\semestre iii\slide_menu\tareas\banner\libraries\input.h
+	<iostream>
+
+1593640372 c:\users\usuario\desktop\c++\semestre iii\slide_menu\tareas\banner\libraries\verify_number.cpp
+	"Verify_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1593640031 c:\users\usuario\desktop\c++\semestre iii\slide_menu\tareas\banner\libraries\verify_number.h
+
+1593640391 c:\users\usuario\desktop\c++\semestre iii\slide_menu\tareas\banner\libraries\to_number.cpp
+	"To_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1593640072 c:\users\usuario\desktop\c++\semestre iii\slide_menu\tareas\banner\libraries\to_number.h
+
+1593640399 c:\users\usuario\desktop\c++\semestre iii\slide_menu\tareas\banner\libraries\screen.cpp
+	"Screen.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<windows.h>
+	<ctype.h>
+	<mmsystem.h>
+
+1593640084 c:\users\usuario\desktop\c++\semestre iii\slide_menu\tareas\banner\libraries\screen.h
+	<iostream>
+
