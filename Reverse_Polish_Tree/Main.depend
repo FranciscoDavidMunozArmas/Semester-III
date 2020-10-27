@@ -1,0 +1,129 @@
+# depslib dependency file v1.0
+1595706601 source:c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\main.cpp
+	<iostream>
+	<string>
+	"Libraries/Input.cpp"
+	"Reverse_Polish.cpp"
+	"Controller.cpp"
+
+1593640752 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\libraries\input.cpp
+	"Input.h"
+	"Verify_number.cpp"
+	<iostream>
+	<string>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1593640227 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\libraries\input.h
+	<iostream>
+
+1595690465 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\libraries\verify_number.cpp
+	"Verify_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1595690434 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\libraries\verify_number.h
+
+1598151961 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\reverse_polish.cpp
+	<iostream>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<cmath>
+	"Libraries/Verify_number.cpp"
+	"Libraries/Stack.cpp"
+	"Libraries/Tree_Node.cpp"
+	"Libraries/To_number.cpp"
+	"Reverse_Polish.h"
+
+1598121792 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\libraries\stack.cpp
+	<sstream>
+	<string>
+	"Stack.h"
+	"Node.cpp"
+
+1595691169 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\libraries\stack.h
+	<iostream>
+	<sstream>
+	<string>
+	"Node.h"
+
+1595689414 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\libraries\node.h
+	<iostream>
+
+1594570114 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\libraries\node.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<sstream>
+	"Node.h"
+
+1597959582 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\libraries\tree_node.cpp
+	<iostream>
+	<sstream>
+	"Tree_Node.h"
+
+1597265510 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\libraries\tree_node.h
+	<iostream>
+
+1598150067 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\reverse_polish.h
+	<iostream>
+	"Libraries/Stack.h"
+	"Libraries/Tree_Node.h"
+
+1598150179 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\controller.cpp
+	<iostream>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	"Libraries/Input.cpp"
+	"Libraries/Menu.cpp"
+	"Controller.h"
+	"Reverse_Polish.cpp"
+
+1593640699 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\libraries\menu.cpp
+	"Menu.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<windows.h>
+	<ctype.h>
+	<mmsystem.h>
+	"Screen.cpp"
+
+1593640184 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\libraries\menu.h
+	<iostream>
+	"Screen.h"
+
+1594955606 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\libraries\screen.h
+	<iostream>
+
+1594955856 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\libraries\screen.cpp
+	"Screen.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<windows.h>
+	<ctype.h>
+	<mmsystem.h>
+
+1595706574 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\controller.h
+	<iostream>
+
+1593640391 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\libraries\to_number.cpp
+	"To_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1593640072 c:\users\usuario\desktop\c++\semestre iii\reverse_polish_tree\libraries\to_number.h
+
