@@ -1,0 +1,304 @@
+# depslib dependency file v1.0
+1598225986 source:c:\users\usuario\desktop\c++\semestre iii\binary_tree\main.cpp
+	<iostream>
+	"Binary_Tree.cpp"
+	"Verify_Prime.cpp"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	"Binary_Tree.cpp"
+	"Libraries/Menu.cpp"
+	"Libraries/Input.cpp"
+	"Libraries/To_number.cpp"
+
+1598225734 c:\users\usuario\desktop\c++\semestre iii\binary_tree\binary_tree.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<sstream>
+	"Binary_Tree.h"
+	"Tree_Node.cpp"
+
+1598225619 c:\users\usuario\desktop\c++\semestre iii\binary_tree\binary_tree.h
+	<iostream>
+	<sstream>
+	"Tree.cpp"
+	"Tree_Node.h"
+
+1598225950 c:\users\usuario\desktop\c++\semestre iii\binary_tree\tree.cpp
+	"Tree.h"
+
+1598225937 c:\users\usuario\desktop\c++\semestre iii\binary_tree\tree.h
+	<iostream>
+	"Tree_Node.h"
+
+1598225888 c:\users\usuario\desktop\c++\semestre iii\binary_tree\tree_node.h
+	<iostream>
+
+1598225917 c:\users\usuario\desktop\c++\semestre iii\binary_tree\tree_node.cpp
+	<iostream>
+	<sstream>
+	"Tree_Node.h"
+
+1594570130 c:\users\usuario\desktop\c++\semestre iii\binary_tree\list.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<sstream>
+	"List.h"
+	"Node.cpp"
+
+1594569996 c:\users\usuario\desktop\c++\semestre iii\binary_tree\list.h
+	<iostream>
+	"Node.h"
+
+1594569695 c:\users\usuario\desktop\c++\semestre iii\binary_tree\node.h
+	<iostream>
+
+1594570114 c:\users\usuario\desktop\c++\semestre iii\binary_tree\node.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<sstream>
+	"Node.h"
+
+1595789046 c:\users\usuario\desktop\c++\semestre iii\binary_tree\libraries\menu.cpp
+	"Menu.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<windows.h>
+	<ctype.h>
+	<mmsystem.h>
+	"Screen.cpp"
+
+1596583617 c:\users\usuario\desktop\c++\semestre iii\binary_tree\libraries\menu.h
+	<iostream>
+	"Screen.h"
+
+1593640084 c:\users\usuario\desktop\c++\semestre iii\binary_tree\libraries\screen.h
+	<iostream>
+
+1593640399 c:\users\usuario\desktop\c++\semestre iii\binary_tree\libraries\screen.cpp
+	"Screen.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<windows.h>
+	<ctype.h>
+	<mmsystem.h>
+
+1593640752 c:\users\usuario\desktop\c++\semestre iii\binary_tree\libraries\input.cpp
+	"Input.h"
+	"Verify_number.cpp"
+	<iostream>
+	<string>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1593640227 c:\users\usuario\desktop\c++\semestre iii\binary_tree\libraries\input.h
+	<iostream>
+
+1596648064 c:\users\usuario\desktop\c++\semestre iii\binary_tree\libraries\verify_number.cpp
+	"Verify_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1595969973 c:\users\usuario\desktop\c++\semestre iii\binary_tree\libraries\verify_number.h
+
+1593640391 c:\users\usuario\desktop\c++\semestre iii\binary_tree\libraries\to_number.cpp
+	"To_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1593640072 c:\users\usuario\desktop\c++\semestre iii\binary_tree\libraries\to_number.h
+
+1598225866 c:\users\usuario\desktop\c++\semestre iii\binary_tree\verify_prime.cpp
+	<iostream>
+	"Verify_Prime.h"
+	"Tree_Node.h"
+
+1598458933 c:\users\usuario\desktop\c++\semestre iii\binary_tree\verify_prime.h
+	<iostream>
+	"Tree_Node.h"
+
+1599261372 source:c:\users\usuario\desktop\c++\semestre iii\avl_tree\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	"AVL_Tree.cpp"
+	"Libraries/Menu.cpp"
+	"Libraries/Input.cpp"
+	"Libraries/To_number.cpp"
+
+1599280665 c:\users\usuario\desktop\c++\semestre iii\avl_tree\avl_tree.cpp
+	<iostream>
+	"AVL_Tree.h"
+	"AVL_Node.cpp"
+
+1599275683 c:\users\usuario\desktop\c++\semestre iii\avl_tree\avl_tree.h
+	<iostream>
+	"AVL_Node.h"
+
+1599090636 c:\users\usuario\desktop\c++\semestre iii\avl_tree\avl_node.h
+	<iostream>
+
+1599090677 c:\users\usuario\desktop\c++\semestre iii\avl_tree\avl_node.cpp
+	<iostream>
+	<sstream>
+	"AVL_Node.h"
+
+1595789046 c:\users\usuario\desktop\c++\semestre iii\avl_tree\libraries\menu.cpp
+	"Menu.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<windows.h>
+	<ctype.h>
+	<mmsystem.h>
+	"Screen.cpp"
+
+1596583617 c:\users\usuario\desktop\c++\semestre iii\avl_tree\libraries\menu.h
+	<iostream>
+	"Screen.h"
+
+1593640084 c:\users\usuario\desktop\c++\semestre iii\avl_tree\libraries\screen.h
+	<iostream>
+
+1593640399 c:\users\usuario\desktop\c++\semestre iii\avl_tree\libraries\screen.cpp
+	"Screen.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<windows.h>
+	<ctype.h>
+	<mmsystem.h>
+
+1593640752 c:\users\usuario\desktop\c++\semestre iii\avl_tree\libraries\input.cpp
+	"Input.h"
+	"Verify_number.cpp"
+	<iostream>
+	<string>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1593640227 c:\users\usuario\desktop\c++\semestre iii\avl_tree\libraries\input.h
+	<iostream>
+
+1596648064 c:\users\usuario\desktop\c++\semestre iii\avl_tree\libraries\verify_number.cpp
+	"Verify_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1595969973 c:\users\usuario\desktop\c++\semestre iii\avl_tree\libraries\verify_number.h
+
+1593640391 c:\users\usuario\desktop\c++\semestre iii\avl_tree\libraries\to_number.cpp
+	"To_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1593640072 c:\users\usuario\desktop\c++\semestre iii\avl_tree\libraries\to_number.h
+
+1599314853 source:c:\users\usuario\desktop\c++\semestre iii\br_tree\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	"BR_Tree.cpp"
+	"Libraries/Menu.cpp"
+	"Libraries/Input.cpp"
+	"Libraries/To_number.cpp"
+
+1599327143 c:\users\usuario\desktop\c++\semestre iii\br_tree\br_tree.cpp
+	<iostream>
+	"BR_Tree.h"
+	"BR_Node.cpp"
+	"Libraries/Screen.cpp"
+
+1599323251 c:\users\usuario\desktop\c++\semestre iii\br_tree\br_tree.h
+	<iostream>
+	"BR_Node.h"
+	"Libraries/Screen.h"
+
+1599314555 c:\users\usuario\desktop\c++\semestre iii\br_tree\br_node.h
+	<iostream>
+
+1593640084 c:\users\usuario\desktop\c++\semestre iii\br_tree\libraries\screen.h
+	<iostream>
+
+1599319448 c:\users\usuario\desktop\c++\semestre iii\br_tree\br_node.cpp
+	<iostream>
+	<sstream>
+	"BR_Node.h"
+
+1593640399 c:\users\usuario\desktop\c++\semestre iii\br_tree\libraries\screen.cpp
+	"Screen.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<windows.h>
+	<ctype.h>
+	<mmsystem.h>
+
+1595789046 c:\users\usuario\desktop\c++\semestre iii\br_tree\libraries\menu.cpp
+	"Menu.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<windows.h>
+	<ctype.h>
+	<mmsystem.h>
+	"Screen.cpp"
+
+1596583617 c:\users\usuario\desktop\c++\semestre iii\br_tree\libraries\menu.h
+	<iostream>
+	"Screen.h"
+
+1593640752 c:\users\usuario\desktop\c++\semestre iii\br_tree\libraries\input.cpp
+	"Input.h"
+	"Verify_number.cpp"
+	<iostream>
+	<string>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1593640227 c:\users\usuario\desktop\c++\semestre iii\br_tree\libraries\input.h
+	<iostream>
+
+1596648064 c:\users\usuario\desktop\c++\semestre iii\br_tree\libraries\verify_number.cpp
+	"Verify_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1595969973 c:\users\usuario\desktop\c++\semestre iii\br_tree\libraries\verify_number.h
+
+1593640391 c:\users\usuario\desktop\c++\semestre iii\br_tree\libraries\to_number.cpp
+	"To_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1593640072 c:\users\usuario\desktop\c++\semestre iii\br_tree\libraries\to_number.h
+
