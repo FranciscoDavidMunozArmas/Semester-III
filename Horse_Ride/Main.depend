@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1594076713 source:c:\users\usuario\desktop\c++\semestre iii\horse_ride\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	"Horse_ride.cpp"
+	"Libraries/Input.h"
+	"Libraries/To_number.cpp"
+
+1594160449 c:\users\usuario\desktop\c++\semestre iii\horse_ride\horse_ride.cpp
+	"Horse_ride.h"
+	"Libraries/Matrix.cpp"
+
+1594160434 c:\users\usuario\desktop\c++\semestre iii\horse_ride\horse_ride.h
+	"Libraries/Matrix.h"
+
+1594161200 c:\users\usuario\desktop\c++\semestre iii\horse_ride\libraries\matrix.h
+	"Array_dinamic.h"
+
+1591824693 c:\users\usuario\desktop\c++\semestre iii\horse_ride\libraries\array_dinamic.h
+	<iostream>
+
+1594161214 c:\users\usuario\desktop\c++\semestre iii\horse_ride\libraries\matrix.cpp
+	"Matrix.h"
+	"Array_dinamic.cpp"
+
+1593032022 c:\users\usuario\desktop\c++\semestre iii\horse_ride\libraries\array_dinamic.cpp
+	"Array_dinamic.h"
+	"Input.cpp"
+	"To_number.cpp"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+
+1593031700 c:\users\usuario\desktop\c++\semestre iii\horse_ride\libraries\input.cpp
+	"Input.h"
+	"Verify_number.cpp"
+	<iostream>
+	<string>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1591057132 c:\users\usuario\desktop\c++\semestre iii\horse_ride\libraries\input.h
+	<iostream>
+
+1593030996 c:\users\usuario\desktop\c++\semestre iii\horse_ride\libraries\verify_number.cpp
+	"Verify_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1590619774 c:\users\usuario\desktop\c++\semestre iii\horse_ride\libraries\verify_number.h
+
+1593031084 c:\users\usuario\desktop\c++\semestre iii\horse_ride\libraries\to_number.cpp
+	"To_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1590714916 c:\users\usuario\desktop\c++\semestre iii\horse_ride\libraries\to_number.h
+
