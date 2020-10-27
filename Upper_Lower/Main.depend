@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1595366786 source:c:\users\usuario\desktop\c++\semestre iii\upper_lower\main.cpp
+	<iostream>
+	"Input_Byte.cpp"
+
+1595367342 c:\users\usuario\desktop\c++\semestre iii\upper_lower\input_byte.cpp
+	"Input_Byte.h"
+	<iostream>
+	<string>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1595366547 c:\users\usuario\desktop\c++\semestre iii\upper_lower\input_byte.h
+	<iostream>
+
