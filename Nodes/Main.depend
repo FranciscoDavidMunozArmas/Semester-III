@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1594570061 source:c:\users\usuario\desktop\c++\semestre iii\nodes\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	"List.cpp"
+	"Libraries/Menu.cpp"
+	"Libraries/Input.cpp"
+	"Libraries/To_number.cpp"
+
+1594570130 c:\users\usuario\desktop\c++\semestre iii\nodes\list.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<sstream>
+	"List.h"
+	"Node.cpp"
+
+1594569996 c:\users\usuario\desktop\c++\semestre iii\nodes\list.h
+	<iostream>
+	"Node.h"
+
+1594569695 c:\users\usuario\desktop\c++\semestre iii\nodes\node.h
+	<iostream>
+
+1594570114 c:\users\usuario\desktop\c++\semestre iii\nodes\node.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<sstream>
+	"Node.h"
+
+1593032847 c:\users\usuario\desktop\c++\semestre iii\nodes\libraries\menu.cpp
+	"Menu.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<windows.h>
+	<ctype.h>
+	<mmsystem.h>
+	"Screen.cpp"
+
+1593032093 c:\users\usuario\desktop\c++\semestre iii\nodes\libraries\menu.h
+	<iostream>
+	"Screen.h"
+
+1592876308 c:\users\usuario\desktop\c++\semestre iii\nodes\libraries\screen.h
+	<iostream>
+
+1593031120 c:\users\usuario\desktop\c++\semestre iii\nodes\libraries\screen.cpp
+	"Screen.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<windows.h>
+	<ctype.h>
+	<mmsystem.h>
+
+1593031700 c:\users\usuario\desktop\c++\semestre iii\nodes\libraries\input.cpp
+	"Input.h"
+	"Verify_number.cpp"
+	<iostream>
+	<string>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1591057132 c:\users\usuario\desktop\c++\semestre iii\nodes\libraries\input.h
+	<iostream>
+
+1593030996 c:\users\usuario\desktop\c++\semestre iii\nodes\libraries\verify_number.cpp
+	"Verify_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1590619774 c:\users\usuario\desktop\c++\semestre iii\nodes\libraries\verify_number.h
+
+1593031084 c:\users\usuario\desktop\c++\semestre iii\nodes\libraries\to_number.cpp
+	"To_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1590714916 c:\users\usuario\desktop\c++\semestre iii\nodes\libraries\to_number.h
+

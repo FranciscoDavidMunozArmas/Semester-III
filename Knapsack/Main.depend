@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1594078060 source:c:\users\usuario\desktop\c++\semestre iii\knapsack\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"Libraries/Input.h"
+	"Libraries/To_number.cpp"
+	"Knapsack_Item.cpp"
+	"Knapsack.cpp"
+
+1593032022 c:\users\usuario\desktop\c++\semestre iii\knapsack\libraries\array_dinamic.cpp
+	"Array_dinamic.h"
+	"Input.cpp"
+	"To_number.cpp"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+
+1591824693 c:\users\usuario\desktop\c++\semestre iii\knapsack\libraries\array_dinamic.h
+	<iostream>
+
+1593031700 c:\users\usuario\desktop\c++\semestre iii\knapsack\libraries\input.cpp
+	"Input.h"
+	"Verify_number.cpp"
+	<iostream>
+	<string>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1591057132 c:\users\usuario\desktop\c++\semestre iii\knapsack\libraries\input.h
+	<iostream>
+
+1593030996 c:\users\usuario\desktop\c++\semestre iii\knapsack\libraries\verify_number.cpp
+	"Verify_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1590619774 c:\users\usuario\desktop\c++\semestre iii\knapsack\libraries\verify_number.h
+
+1593031084 c:\users\usuario\desktop\c++\semestre iii\knapsack\libraries\to_number.cpp
+	"To_number.h"
+	<iostream>
+	<string>
+	<ctype.h>
+
+1590714916 c:\users\usuario\desktop\c++\semestre iii\knapsack\libraries\to_number.h
+
+1593970126 c:\users\usuario\desktop\c++\semestre iii\knapsack\knapsack_item.cpp
+	"Knapsack_Item.h"
+
+1593967664 c:\users\usuario\desktop\c++\semestre iii\knapsack\knapsack_item.h
+
+1594078119 c:\users\usuario\desktop\c++\semestre iii\knapsack\knapsack.cpp
+	"Knapsack.h"
+	"Knapsack_Item.cpp"
+	"Libraries/Array_dinamic.cpp"
+
+1593970411 c:\users\usuario\desktop\c++\semestre iii\knapsack\knapsack.h
+	"Knapsack_Item.h"
+	"Libraries/Array_dinamic.h"
+
